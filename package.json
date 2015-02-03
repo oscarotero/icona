@@ -1,0 +1,7 @@
+{
+  "name": "icona",
+  "private": true,
+  "dependencies": {
+    "stylecow": "^4.2.1"
+  }
+}

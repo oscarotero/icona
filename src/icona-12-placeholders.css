@@ -14,8 +14,6 @@
 }
 
 %ia12 {
-	width: 24px;
-
 	line, circle {
 		fill: none;
 		vector-effect: non-scaling-stroke;

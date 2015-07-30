@@ -1,7 +1,8 @@
 {
   "name": "icona",
   "private": true,
-  "dependencies": {
-    "stylecow": "^4.2.1"
+  "dependencies": {},
+  "devDependencies": {
+    "stylecow": "^6.9.2"
   }
 }

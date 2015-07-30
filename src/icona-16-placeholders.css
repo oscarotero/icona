@@ -23,12 +23,15 @@
 		transition: all 0.5s;
 		stroke-width: 4px;
 		stroke-linecap: round;
-		opacity: 0;
 	}
 }
 
 %ia16-menu {
 	@extend %ia16;
+
+	circle {
+		opacity: 0;
+	}
 
 	line {
 		&:nth-child(1) {
@@ -51,6 +54,10 @@
 %ia16-plus {
 	@extend %ia16;
 
+	circle {
+		opacity: 0;
+	}
+
 	line {
 		&:nth-child(1) {
 			opacity: 1;
@@ -61,22 +68,42 @@
 			opacity: 1;
 			transform: var(--ia16-vertical-center);
 		}
+
+		&:nth-child(3) {
+			opacity: 0;
+		}
 	}
 }
 
 %ia16-minus {
 	@extend %ia16;
 
+	circle {
+		opacity: 0;
+	}
+
 	line {
 		&:nth-child(1) {
 			opacity: 1;
 			transform: var(--ia16-horizontal-center);
+		}
+
+		&:nth-child(2) {
+			opacity: 0;
+		}
+
+		&:nth-child(3) {
+			opacity: 0;
 		}
 	}
 }
 
 %ia16-cross {
 	@extend %ia16;
+
+	circle {
+		opacity: 0;
+	}
 
 	line {
 		&:nth-child(1) {
@@ -88,11 +115,19 @@
 			opacity: 1;
 			transform: translate(var(--ia16-align-start), var(--ia16-align-start)) rotate(45deg);
 		}
+
+		&:nth-child(3) {
+			opacity: 0;
+		}
 	}
 }
 
 %ia16-right {
 	@extend %ia16;
+
+	circle {
+		opacity: 0;
+	}
 
 	line {
 		&:nth-child(1) {
@@ -115,6 +150,10 @@
 %ia16-left {
 	@extend %ia16;
 
+	circle {
+		opacity: 0;
+	}
+
 	line {
 		&:nth-child(1) {
 			opacity: 1;
@@ -136,6 +175,10 @@
 %ia16-top {
 	@extend %ia16;
 
+	circle {
+		opacity: 0;
+	}
+
 	line {
 		&:nth-child(1) {
 			opacity: 1;
@@ -156,6 +199,10 @@
 
 %ia16-bottom {
 	@extend %ia16;
+
+	circle {
+		opacity: 0;
+	}
 
 	line {
 		&:nth-child(1) {
@@ -180,7 +227,6 @@
 
 	circle {
 		opacity: 1;
-
 	}
 
 	line {
@@ -188,11 +234,23 @@
 			opacity: 1;
 			transform: translate(10px, 10px) rotate(45deg);
 		}
+
+		&:nth-child(2) {
+			opacity: 0;
+		}
+
+		&:nth-child(3) {
+			opacity: 0;
+		}
 	}
 }
 
 %ia16-check {
 	@extend %ia16;
+
+	circle {
+		opacity: 0;
+	}
 
 	line {
 		&:nth-child(1) {
@@ -203,11 +261,18 @@
 			opacity: 1;
 			transform: translate(6px, 14px) rotate(-45deg);
 		}
+		&:nth-child(3) {
+			opacity: 0;
+		}
 	}
 }
 
 %ia16-tright {
 	@extend %ia16;
+
+	circle {
+		opacity: 0;
+	}
 
 	line {
 		&:nth-child(1) {
@@ -228,6 +293,10 @@
 %ia16-tleft {
 	@extend %ia16;
 
+	circle {
+		opacity: 0;
+	}
+
 	line {
 		&:nth-child(1) {
 			opacity: 1;
@@ -247,6 +316,10 @@
 %ia16-ttop {
 	@extend %ia16;
 
+	circle {
+		opacity: 0;
+	}
+
 	line {
 		&:nth-child(1) {
 			opacity: 1;
@@ -265,6 +338,10 @@
 
 %ia16-tbottom {
 	@extend %ia16;
+
+	circle {
+		opacity: 0;
+	}
 	
 	line {
 		&:nth-child(1) {

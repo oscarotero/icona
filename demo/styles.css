@@ -45,6 +45,11 @@ ul {
 
 			:matches(line, circle) {
 				stroke: white;
+				fill: none;
+				vector-effect: non-scaling-stroke;
+				transition: all 0.5s;
+				stroke-width: 4px;
+				stroke-linecap: round;
 			}
 		}
 

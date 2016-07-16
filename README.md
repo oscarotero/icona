@@ -68,4 +68,4 @@ There are two subsets of icons, one that uses a 12x12 grid (better for sizes lik
 
 ## Show me the demo
 
-Of course, a demo is available: http://oscarotero.com/icona
+Of course, a demo is available: https://oscarotero.com/icona/demo
